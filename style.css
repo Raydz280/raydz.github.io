@@ -51,3 +51,8 @@ nav{
 .media li{
   list-style: none;
 }
+
+.media a{
+  text-decoration-style: dashed;
+  color: #752016;
+}
