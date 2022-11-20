@@ -10,7 +10,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #dff3f5
+  background-color: #D4AFB9
 }
 .logo{
   background-color: white
@@ -31,17 +31,23 @@ nav{
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  font-size: 15px
-}
-   .burger{
-    display: none;
-    cursor: pointer;
-  }
-.burger div{
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin: 5px;
+  font-size: 15px;
 }
 
+.sabers {
+  display: flex;
+  justify-content: center;
+}
 
+.center {
+  text-align: center;
+}
+
+.media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.media li{
+  list-style: none;
+}
